@@ -1,0 +1,126 @@
+@media(max-width:510px) {
+    .flexs {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .email input#name {
+        width: 400px;
+        height: 50px;
+        background: #e2dcdc;
+        border-radius: 10px;
+        border: 0px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .email input#password {
+        width: 400px;
+        height: 50px;
+        background: #e2dcdc;
+        border-radius: 10px;
+        border: 0px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .email button {
+        width: 400px;
+        height: 50px;
+        background: rgb(64, 163, 64);
+        margin-top: 20px;
+        border: 0px;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .porol p {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .email p {
+        margin: 0 auto;
+        width: 400px;
+    }
+}
+
+@media(max-width:400px) {
+    .email input#name {
+        margin-left: 30px;
+        width: 330px;
+        height: 50px;
+        background: #e2dcdc;
+        border-radius: 10px;
+        border: 0px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .email input#password {
+        width: 329px;
+        margin-left: 30px;
+        height: 50px;
+        background: #e2dcdc;
+        border-radius: 10px;
+        border: 0px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .email button {
+        width: 330px;
+        height: 50px;
+        background: rgb(64, 163, 64);
+        margin-top: 20px;
+        border: 0px;
+        color: white;
+        border-radius: 10px;
+        margin-left: 30px;
+    }
+
+    .email p {
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    .email input#name {
+        margin-left: -15px;
+        width: 270px;
+        height: 50px;
+        background: #e2dcdc;
+        border-radius: 10px;
+        border: 0px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .email input#password {
+        width: 270px;
+        margin-left: -15px;
+        height: 50px;
+        background: #e2dcdc;
+        border-radius: 10px;
+        border: 0px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .email button {
+        width: 270px;
+        height: 50px;
+        background: rgb(64, 163, 64);
+        margin-top: 20px;
+        border: 0px;
+        color: white;
+        border-radius: 10px;
+        margin-left: -15px;
+    }
+
+    .porol p {
+        margin-top: 10px;
+    }
+    
+}

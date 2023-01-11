@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text h1 {
+  font-size: 25px;
+  color: #A0A0A0;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+.flexs {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.email h1 {
+  text-align: center;
+  font-style: 25px;
+  color: #A0A0A0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+.email input#name {
+  width: 500px;
+  height: 50px;
+  background: #e2dcdc;
+  border-radius: 10px;
+  border: 0px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+.email input#password {
+  width: 500px;
+  height: 50px;
+  background: #e2dcdc;
+  border-radius: 10px;
+  border: 0px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.email p {
+  margin: 0 auto;
+  width: 500px;
+}
+.email button {
+  cursor: pointer;
+  width: 500px;
+  height: 50px;
+  background: rgb(64, 163, 64);
+  margin-top: 20px;
+  border: 0px;
+  color: white;
+  border-radius: 10px;
+}
+.email button:hover {
+  background: black;
+}
+
+.porol p {
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+.porol p:hover {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
